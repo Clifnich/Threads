@@ -9,7 +9,7 @@ public class getID {
 		t2.start();
 	}
 
-	public static int getid() {
+	public synchronized static int getid() {
 		return counter++;
 	}
 
